@@ -5,7 +5,7 @@
 ![screenshot](https://github.com/bradtraversy/proshop_mern/blob/master/uploads/Screen%20Shot%202020-09-29%20at%205.50.52%20PM.png)
 
 
-### Env Variables
+### Variables de entorno
 
 Para que todo funcione bien se deberá crear un archivo .env en la carpeta raíz con los siguientes datos.
 
@@ -17,7 +17,7 @@ JWT_SECRET = 'abc123'
 PAYPAL_CLIENT_ID = your paypal client id
 ```
 
-### Instalar dependencias (frontend & backend)
+## Instalar dependencias (frontend & backend)
 
 ```
 npm install
@@ -25,7 +25,7 @@ cd frontend
 npm install
 ```
 
-### Ejecución
+## Ejecución
 
 ```
 # Ejecutar frontend (:3000) y backend (:5000)
@@ -38,14 +38,11 @@ npm run server
 ## Build & Deploy
 
 ```
-# Create frontend prod build
 cd frontend
 npm run build
 ```
 
-There is a Heroku postbuild script, so if you push to Heroku, no need to build manually for deployment to Heroku
-
-### Base de datos
+## Base de datos
 
 Por defecto el sitio no contará con ningún artículo, puede usar los siguientes comandos para importar datos al sitio
 
